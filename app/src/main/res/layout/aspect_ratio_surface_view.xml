@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.media3.ui.AspectRatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/reddit_video"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    app:resize_mode="fixed_width">
+
+
+    <SurfaceView
+        android:id="@+id/reddit_video_surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layerType="hardware"
+        android:outlineProvider="none"
+        android:soundEffectsEnabled="false" />
+
+</androidx.media3.ui.AspectRatioFrameLayout>
