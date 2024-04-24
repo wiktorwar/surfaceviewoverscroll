@@ -1,7 +1,6 @@
 # OverscrollBug
 
-This is just a demo to demonstrate SurfaceView going blank during overscroll animation: 
+This is just a demo to demonstrate SurfaceView going blank during overscroll animation (only if `android:layerType="hardware"`): 
 
 
-https://media.github.snooguts.net/user/1384/files/09e02927-65dc-472a-9e00-b62ec110f2df
-
+https://github.com/wiktorwar/surfaceviewoverscroll/assets/1345816/d4a598c5-0197-4222-992f-e607664392e7
